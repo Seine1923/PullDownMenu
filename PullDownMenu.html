@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>menu</title>
+		<style>
+			  *{padding:0;
+				margin:0;
+			  }
+			ul{
+				list-style-type: none;
+				background-color: #111; 
+				box-shadow: hoff voff radius color;
+			}
+			
+			.menu a{
+				text-decoration:none;
+				color:white;
+			}
+
+			.menu{
+				border-radius:100px;
+				background: linear-gradient(#444,#111);	
+				box-shadow: 4px 4px 8px 4px gray;
+				padding:0 30px;
+				margin:10px;
+			}
+			
+			.menu>li{
+				float: left;
+				position: relative;
+			}
+
+			.menu li:hover{
+				background: linear-gradient(hsl(200,100%,40%),hsl(200,100%,20%));
+				box-shadow: 4px 4px 8px 4px gray;
+			}
+
+			.menu ul{
+				display: none;
+				position: absolute;
+				top:2.3em;
+			}
+
+			.menu>li:hover ul{
+				display:block;	
+				left:0;
+				box-shadow: 4px 4px 8px 4px gray;
+			}
+
+
+			.menu li{		
+				padding: 10px 20px;
+			}
+
+			.menu:after{
+				content: "";
+				clear: both;
+				display: block;
+			}	
+		</style>
+	</head>
+	<body>
+		<ul class="menu">
+			<li>
+				<a href="#">StdItem1</a>
+				<ul>
+					<li><a href="#">SubItem1</a></li>
+					<li><a href="#">SubItem2</a></li>
+					<li><a href="#">SubItem3</a></li>
+					<li><a href="#">SubItem4</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">StdItem2</a>
+				<ul>
+					<li><a href="#">SubItem1</a></li>
+					<li><a href="#">SubItem2</a></li>
+					<li><a href="#">SubItem3</a></li>
+					<li><a href="#">SubItem4</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">StdItem3</a>
+				<ul>
+					<li><a href="#">SubItem1</a></li>
+					<li><a href="#">SubItem2</a></li>
+					<li><a href="#">SubItem3</a></li>
+					<li><a href="#">SubItem4</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">StdItem4</a>
+				<ul>
+					<li><a href="#">SubItem1</a></li>
+					<li><a href="#">SubItem2</a></li>
+					<li><a href="#">SubItem3</a></li>
+					<li><a href="#">SubItem4</a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
